@@ -4,10 +4,7 @@ import spaceshipLogo from "../../textures/spaceship-logo.png";
 
 import "../../styles/gameMenu.css";
 
-import { contractAddress, Abi } from "../../util/ethers";
-
 import { useStore } from "../../state/useStore";
-import { ethers } from "ethers";
 
 const GameOverScreen = () => {
   const previousScores = localStorage.getItem("highscores")
